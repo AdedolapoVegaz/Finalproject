@@ -1,0 +1,163 @@
+/*Created By: Jovan Leamy | n01724731 */
+body{
+    background-color:rgb(9, 10, 15);
+     padding:10px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-style: italic;
+    
+ 
+ }
+ nav{
+    font-size:medium;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: right;
+    
+ 
+ }
+ nav a {
+    padding-right: 25px;
+    text-decoration: none;
+    color: #D6B377;
+    font-family: "Halisr Thin", Sans-serif;
+    
+ }
+ 
+ #header{
+     background-image:url(../images/entertainment-img1.jpeg);
+     background-repeat: no-repeat;
+     background-size: 100%;
+     padding:100px;
+     text-align:center;
+     font-size: 50px;
+     font-weight:bolder;
+     color:rgb(30, 3, 89)
+     
+     
+   
+ }
+ .first{
+    color: #D6B377;
+    padding: 10px;
+    font-size: large;
+    font-family: "Halisr Thin", Sans-serif;
+    text-align:left;
+    padding-top: 50px;
+    padding-bottom: 50px
+ 
+ 
+ }
+  .second{
+  color: #D6B377;
+  font-size: large;
+  font-family: "Halisr Thin", Sans-serif;
+  padding-left: 20px;
+  
+    
+  }
+ 
+ .img1,.img2,.img3{
+    padding-right:40px;
+    padding-bottom:50px;
+    padding-left:10px
+    
+ 
+  }
+ 
+  .third{
+    color:#D6B377;
+    font-size: large;
+    font-family: "Halisr Thin", Sans-serif;
+    padding-left: 20px;
+  }
+ 
+ .four,.five{
+   
+    padding-right:70px;
+    padding-left: 10px;
+    padding-bottom: 40px;
+ 
+  }
+ 
+ 
+ .footer{
+    color:#D6B377;
+    font-family: "Halisr Thin", Sans-serif;
+    font-size: medium;
+    font-style: italic;
+    display: flex;
+    margin-left:15%;
+    padding:20px;
+    
+ 
+    
+ } 
+ .address{
+    color: white;
+ }
+ 
+   
+ .email,.call{
+    color:#D6B377;
+    text-decoration: none;
+ }
+ 
+ .link,ul{
+    color:#D6B377;
+    font-size: large;
+    font-weight: lighter;   
+    margin-left:100px;
+    list-style-type:none;
+    font-family: "Halisr Thin", Sans-serif;
+    text-decoration: none;
+}
+
+h2 {
+   text-align: center;
+   font-size: 30px;
+   font-weight: bolder;
+}
+
+p {
+   text-align: center;
+}
+
+.menu {
+   width: 60%;
+   margin: 50px auto;
+   background-color: #fff;
+   padding: 20px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   border-radius: 8px;
+ }
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+.menu-item:last-child {
+  border-bottom: none;
+}
+.menu-item h2 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+.menu-item .price {
+  font-size: 1.2em;
+  color: #666;
+}
+.menu-item .member-price {
+  font-size: 1.2em;
+  color: #D6B377;
+  font-weight: bold;
+}
+.description {
+  font-size: 1em;
+  color: #555;
+  margin-top: 10px;
+}
+

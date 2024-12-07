@@ -1,0 +1,106 @@
+<!--Created By: Jovan Leamy | n01724731-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Entertainment Hub</title>
+        <link rel="stylesheet" href="css/login.css">
+
+    </head>
+    <body>
+        <nav>
+            <a href="./index.html">HOME</a>
+            <a href="#">EVENTS</a>
+            <a href="#">PHOTOS</a>
+            <a href="#">RESERVE</a>
+            <a href="./menu.html">MENU</a>
+            
+
+        </nav>
+        <header id="header">
+            THE ENTERTAINMENT HUB
+            
+        </header>
+        <main>
+            <div class="login-container">
+                <div class="login-box">
+                    <h1>Member Login</h1>
+                    <form id="loginForm" onsubmit="return validateForm()">
+                        <div class="input-group">
+                            <label for="username">Username</label>
+                            <input type="text" id="username" name="username" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <button type="submit" class="login-btn">Login</button>
+                        <div class="forgot-password">
+                            <a href="#">Forgot Password?</a>
+                        </div>
+                        <div id="error-message" class="error-message"></div>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <script src="login.js"></script>
+        <footer>
+            <div class="footer">       
+                <div>
+                    <h3>HUB</h3>
+                    <p class="address">Address: Toronto,Canada</p>
+                    <p>Call:<a class="call" href="#">12345678910</a></p>
+                    <p>Email:<a class="email" href="#">entertainmenthub@werttrf.com</a></p>
+                </div>
+
+                <div class="link">
+                    <ul>
+                        <li>
+                            <a class="link" href="./index.html">Home</a>
+                        </li>
+                        <li >
+                           <a class="link" href="#">About</a>
+                        </li>
+                        <li>
+                            <a class="link" href="#">Events</a>
+                        </li>
+                        <li>
+                            <a class="link" href="#">Photos</a>
+                        </li>
+                        <li>
+                            <a class="link" href="./menu.html">Menu</a>
+                        </li>
+                        <li>
+                            <a class="link" href="#">Reservations</a>
+                        </li>
+                    </ul>
+            
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <a class="link" href="#">Booking</a>
+                        </li>
+                        <li >
+                           <a class="link" href="#">Bottle Services</a>
+                        </li>
+                        <li>
+                            <a class="link" href="#">Booths</a>
+                        </li>
+                        <li>
+                            <a class="link" href="#">Packages</a>
+                        </li>
+                        <li>
+                            <a class="link" href="#">Event Space</a>
+                        </li>
+                        <li>
+                            <a class="link" href="#">Lost and Found</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </footer>
+        
+    </body>
+</html>
